@@ -1,0 +1,56 @@
+/* src/styles/index.module.css */
+
+/* Main styles for the photo feed container */
+.photoFeed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Styling for individual photo items */
+.photoItem {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Styling for the image container */
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 250px; /* Set a fixed height for the images */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Styling for the photo itself */
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling for the photo info section */
+.photoInfo {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.likesContainer {
+  display: flex; /* Use Flexbox to align the heart icon and likes text */
+  align-items: center; /* Center the items vertically in the container */
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Responsive styles for different screen sizes */
+@media (max-width: 768px) {
+  .photoFeed {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .photoFeed {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+}

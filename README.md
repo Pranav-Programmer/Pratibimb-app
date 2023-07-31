@@ -36,9 +36,9 @@ To run this project on your local system, follow the instructions below:
 - Start the development server using: `npm run dev`.
 - Open your web browser and access the application at http://localhost:3000.
 
+[![Watch the video](https://3.imimg.com/data3/SO/IO/MY-10447106/product-demo-video-500x500.jpg)](https://clipchamp.com/watch/tz4LOAhtp8Z?utm_source=embed&utm_medium=embed&utm_campaign=watch)
 
-https://github.com/Pranav-Programmer/Pratibimb-app/assets/79044490/6460cbbf-3679-43d7-a341-c3d33995c487
-
+Click on the image to watch the video.
 
   
 ## Feedback and Support
